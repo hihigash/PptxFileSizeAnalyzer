@@ -83,7 +83,7 @@ internal static class Commands
             .FirstOrDefault(s =>
                 s.NonVisualShapeProperties?.ApplicationNonVisualDrawingProperties?.PlaceholderShape?.Type?.Value ==
                 PlaceholderValues.Title);
-        return titleShape != null ? titleShape.TextBody.InnerText : "Untitled Slide";
+        return titleShape?.TextBody?.InnerText ?? "Untitled Slide";
     }
 
     /// <summary>
