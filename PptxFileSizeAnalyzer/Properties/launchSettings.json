@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PptxFileSizeAnalyzer": {
+      "commandName": "Project",
+      "commandLineArgs": "-f \"C:\\Users\\hihigash\\Downloads\\Job2_AI_ForCSAM.pptx\""
+    }
+  }
+}
